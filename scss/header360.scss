@@ -1,0 +1,47 @@
+@media (max-width: 360px) {
+  .header {
+    &__logo {
+      margin-right: 100px;
+
+      &-img {
+        display: none;
+      }
+
+      &-burger {
+        display: block;
+        margin-right: 15px;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        & span {
+          display: block;
+          width: 20px;
+          border: 2px solid #5c5c5c;
+          border-radius: 50px;
+          margin-bottom: 2px;
+        }
+      }
+
+      &-text {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.25px;
+        color: #5c5c5c;
+      }
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    &__button {
+      padding: 5px 40px;
+      font-size: 18px;
+      line-height: 32px;
+      border-radius: 8px;
+    }
+  }
+}

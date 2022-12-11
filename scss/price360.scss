@@ -1,0 +1,36 @@
+@media (max-width: 360px) {
+  .price {
+    margin: 12px;
+
+    &__title {
+      text-align: left;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    &__text {
+      text-align: left;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+
+    &__items {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__item {
+      margin: 20px 0;
+    }
+
+    &__butt {
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
+}

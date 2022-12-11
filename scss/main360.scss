@@ -1,0 +1,44 @@
+@media (max-width: 360px) {
+  .main {
+    &__title,
+    &__text {
+      text-align: center;
+      margin: 0 auto;
+      width: 320px;
+    }
+
+    &__title {
+      font-size: 48px;
+      line-height: 56px;
+      margin-bottom: 25px;
+
+      & span {
+        background: url("../img/main/4.svg") no-repeat;
+        background-position: center bottom -15px;
+        background-size: 110px 80px;
+        padding: 15px;
+        text-shadow: 0px 4px 0px #ffffff;
+      }
+    }
+
+    &__text {
+      font-size: 24px;
+      line-height: 36px;
+    }
+
+    &__right,
+    &__left {
+      display: none;
+    }
+
+    &__img {
+      display: block;
+      margin: 0 auto;
+      padding: 64px;
+    }
+
+    &__butt {
+      margin: 0 auto;
+    }
+  }
+}

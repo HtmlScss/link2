@@ -1,0 +1,52 @@
+@media (max-width: 360px) {
+  .history {
+    &__title {
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 0.25px;
+      margin-bottom: 10px;
+
+      &-car {
+        display: none;
+      }
+
+      &-year {
+        color: #6c5ce7;
+      }
+    }
+
+    &__text {
+      width: auto;
+    }
+
+    &__items {
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      width: 150px;
+      margin-right: 0px;
+      margin-bottom: 40px;
+
+      &-title {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.1875px;
+        color: #2d3436;
+      }
+
+      &-text {
+        font-size: 13.5px;
+        line-height: 24px;
+        color: #5c5c5c;
+      }
+
+      &-button {
+        font-weight: bold;
+        font-size: 13.5px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+      }
+    }
+  }
+}

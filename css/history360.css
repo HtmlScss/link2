@@ -1,0 +1,42 @@
+@media (max-width: 360px) {
+  .history__title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+    margin-bottom: 10px;
+  }
+  .history__title-car {
+    display: none;
+  }
+  .history__title-year {
+    color: #6c5ce7;
+  }
+  .history__text {
+    width: auto;
+  }
+  .history__items {
+    flex-wrap: wrap;
+  }
+  .history__item {
+    width: 150px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  .history__item-title {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    color: #2d3436;
+  }
+  .history__item-text {
+    font-size: 13.5px;
+    line-height: 24px;
+    color: #5c5c5c;
+  }
+  .history__item-button {
+    font-weight: bold;
+    font-size: 13.5px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+}/*# sourceMappingURL=history360.css.map */
